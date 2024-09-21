@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang=pt-br>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Anki</title>
+    </head>
+    <body>
+        <header>
+            <h1>Tudo sobre Anki</h1>
+            <nav id="menu">
+                <a href="" id="pi" target="_blank">Página incial</a>
+                <a href="" id="a" target="_blank">Artigos</a>
+                <a href="" id="c" target="_blank">Contato</a>
+            </nav>
+        </header>
+        <main>
+            <article id="anki">
+            <h1>Anki</h1>
+                <p>
+                    Anki é um aplicativo e de código aberto com o foco em <i>Flashcards</i>.</a>
+                    <br /> Sua estrutura é baseada em <a href="#decks"><i>Decks</i></a>, <a href="#subdecks"><i>Subdecks</i></a> e <a href="#flashcards"><i>Flashcards</i></a>.
+                    <br /> Ele utiliza-se da metodologia de repetição espaçada, trabalhando com o desempenho da pessoa sobre aquele cartão. Se a pessoa exerce um bom desempenho, aquele cartão específico demora mais tempo para ser exibido novamente, caso contrário, demora menos tempo a ser exibido novamente.
+                </p>
+                <section id="explicacao_estrutura_anki">
+                    <article id="decks">
+                        <dl>
+                            <dt><b>Decks</b>:</dt>
+                            <dd>
+                                Decks são como pastas, onde recebem um nome (geralmente o que o tema em que o <i>flashcard</i> em questão vai apresentar).
+                            </dd>
+                        </dl>
+                        <img src="./img/decks.png" alt="Exibição de um deck no Anki" title="Decks no Anki">
+                    </article>
+                    <article id="subdecks">
+                        <dl>
+                            <dt><b>Subdecks</b>:</dt>
+                            <dd><i>Subdecks</i> são como sub-pastas de <i>decks</i>, geralmente utilizadas para sub-dividir tópicos apresentados em flashcards.</dd>
+                        </dl>
+                        <img src="./img/subdecks.png" alt="Exibição de subdecks no Anki" title="Subdecks no Anki">
+                    </article>
+                    <article id="flashcards">
+                        <dl>
+                            <dt><b>Flashcards</b>:</dt>
+                            <dd>
+                                Flashcards são cartões que contem basicamente perguntas e respostas, onde existem diferentes maneiras em que podem ser descritos, tais como:
+                                <ul>
+                                    <li>
+                                        Omissão de palavras
+                                        <ul>
+                                            <li>Esconde uma palavra dentro de uma frase.<br /> Exemplo: Frente: [...] é a capital da Estônia. Verso: Tallinn é a capital da Estônia.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Básico
+                                        <ul>
+                                            <li>Uma pergunta vem a frente do cartão, sua resposta aparece na parte de trás do cartão.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Oclusão de imagens
+                                        <ul>
+                                            <li>Oclusão de imagens funciona um pouco diferente dos demais. Uma imagem é inserida e blocos são postos acima de informações relevantes.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </article>
+                    <p>Seu propósito em geral é memorar as informações do cartão em questão.</p>
+                    <img src="./img/flashcards.png" alt="Exibição de um flashcard no Anki" title="Flashcard no Anki">
+                    <p>Após respondido, aparecerá quatro opções:</p>
+                    <img src="./img/opcoes.png" alt="">
+                    <article id="opcoes">
+                        <h3 id="again">Again</h3>
+                        <p>Again é utilizada quando você erra a resposta do cartão.</p>
+                        <h3 id="hard">Hard</h3>
+                        <p>Hard é utilizado quando você achou difícil responder o cartão. Ele reaparecerá em menos tempo.
+                        <h3 id="good">Good</h3>
+                        <p>Good é utilizado quando você achou nem tão difícil, mas nem tão fácil responder aquele cartão. Ele reaparecerá em um tempo mais prolongado do que o hard.</p>
+                        <h3 id="easy">Easy</h3>
+                        <p>Easy é utilizado quando foi fácil memorizar a resposta do cartão. Ele é o mais demorado a voltar a aparecer, geralmente em questão de dias.</p>
+                    </article>
+                    <p>Com o Anki, pode-se aprender qualquer coisa, <strong>não há um nicho específico do que você vai aprender dentro dele</strong>, isto porque, o próprio usuário molda como seu Anki funcionará.</p>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <img src="./img/Lucas_Moura.png" alt="Lucas G. Moura, autor do artigo." id="autor">
+            <article id="informacoes">
+                <h2>Lucas G. Moura</h2>
+                <address>
+                    <p>
+                        Lucas G. Moura é um estudante que admira programação.
+                    </p>
+                </address>
+            </article>
+            <p id="contato">
+                Quer falar comigo? <a href="mailto:lucasmoura278@gmail.com">Entre em contato</a> por aqui!
+            </p>
+        </footer>
+    </body>
+</html>

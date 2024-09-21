@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Garet Book";
+    src: url("../font/garet-book.otf");
+}
+
+* {
+    font-family: "Garet Book", sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #f1e2c8;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+header {
+    box-shadow: 10px 8px 40px #fae1ad;
+    margin: 0px 300px 0px 300px;
+    border-radius: 50px 50px 9.5px 9.5px;
+    color: #efe7c1;
+    background-color: #f6bf7e;
+    h1 {
+        font-size: 45px;
+        margin-bottom: 10px;
+        padding-top: 30px;
+        margin-left: 40px;
+    }
+}
+
+nav {
+    word-spacing: 50px;
+    border-radius: 100px;
+    background-color: #efe9b7;
+    #pi {
+        word-spacing: 1px;
+    }
+}
+
+#anki, dl, dt, dd, li {
+    text-align: left;
+}
+
+#again {
+    color: #cb2432;
+}
+
+#hard {
+    color: #c69d12;
+}
+
+#good {
+    color: #30b700;
+}
+
+#easy {
+    color: #04a3e0;
+}
+
+footer {
+    box-shadow: 10px 8px 40px #fae1ad;
+    border-radius: 140px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    background-color: #eea650;
+    color: whitesmoke;
+    margin-right: 600px;
+}
+
+#autor {
+    margin-left: 50px;
+    display: flex;
+    border-radius: 100%;
+    height: 130px;
+}
+
+#informacoes {
+    line-height: 10px;
+    h2 {
+        margin-left: -310px;
+    }
+    margin-top: -130px;
+    margin-left: 140px;
+}
+
+#contato {
+    margin-top: 5px;
+    margin-right: -25px;
+}
